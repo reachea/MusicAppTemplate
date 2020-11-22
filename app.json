@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "InstragramUIClone",
-    "slug": "InstragramUIClone",
+    "name": "Naruto",
+    "slug": "Naruto",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -13,14 +13,17 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "A place for selling stuff you don't need anymore!",
+    "android": {
+      "package": "com.yourcompany.yourappname",
+      "versionCode": 1
     }
   }
 }
